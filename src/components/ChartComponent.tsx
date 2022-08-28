@@ -3,7 +3,7 @@ import Chart from 'react-apexcharts'
 
 function ChartComponent({ chartData }: any) {
   return (
-    <div className='w-3/4 md:w-screen mx-2'>
+    <div className='w-3/4 md:w-screen m-2'>
       <Chart
         type='area'
         series={[
@@ -13,7 +13,6 @@ function ChartComponent({ chartData }: any) {
           },
         ]}
         options={{
-          title: { text: 'title' },
           chart: {
             type: 'area',
             stacked: false,
@@ -35,7 +34,7 @@ function ChartComponent({ chartData }: any) {
           },
           yaxis: {
             title: {
-              text: 'Price',
+              text: 'Gas price',
             },
           },
           xaxis: {

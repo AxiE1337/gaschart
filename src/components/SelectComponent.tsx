@@ -24,7 +24,7 @@ function SelectComponent({ setTimeFilter, timeFilterValue }: ISelect) {
         />
       </div>
       <div className='flex gap-2 items-center justify-center'>
-        <h1 className='text-4xl md:text-xl'>Value: </h1>
+        <h1 className='text-4xl text-center md:text-xl'>Value: </h1>
         <Select
           placeholder='Pick one'
           value={'GWei'}
